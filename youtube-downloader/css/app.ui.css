@@ -1,0 +1,44 @@
+/* UI utility styles */
+.c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv {
+  display: flex;
+  align-items: center;
+}
+
+.ch {
+  display: flex;
+  justify-content: center;
+}
+
+.unselectable {
+  user-select: none;
+}
+
+.selectable {
+  user-select: auto !important;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.bottom-toast {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.toast-error {
+  background-color: #ff5959;
+}

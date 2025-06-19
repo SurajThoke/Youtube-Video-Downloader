@@ -1,0 +1,47 @@
+/* Add responsive styles here */
+@media (max-width: 530px) {
+  .inner-controller {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 60px;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    border-radius: 0px;
+  }
+
+  .close-btn {
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgba(82, 82, 82, 0.418);
+  }
+
+  .input-wrap {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
+  .quality-item {
+    width: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .quality-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .inner-controller {
+    padding: 10px;
+  }
+
+  .quality-chooser {
+    display: block;
+  }
+}
