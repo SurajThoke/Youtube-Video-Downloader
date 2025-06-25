@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         resultBox.innerHTML = "<p>Loading...</p>";
 
-        fetch("http://localhost:5000/download", {
+        fetch("https://youtube-video-downloader-1-bilp.onrender.com/download", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
