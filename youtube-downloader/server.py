@@ -4,7 +4,8 @@ import yt_dlp
 import os
 
 app = Flask(__name__)
-CORS(app)  # Allow frontend access from browser
+CORS(app, origins=["https://nimble-snickerdoodle-c26f98.netlify.app"])
+  # Allow frontend access from browser
 
 @app.route('/download', methods=['POST'])
 def download_video():
